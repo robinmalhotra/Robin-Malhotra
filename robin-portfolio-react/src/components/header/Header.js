@@ -133,7 +133,7 @@ function Header(props) {
                 Contact and Resume
               </NavLink>
             </li>
-            <button {...styles} onClick={changeTheme}>
+            <button {...styles} onClick={changeTheme} className="pl-3 pb-1">
               {icon}
             </button>
           </ul>

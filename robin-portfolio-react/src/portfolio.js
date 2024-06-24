@@ -10,8 +10,8 @@ const settings = {
   //Home Page
   const greeting = {
     title: "Hello 👋.",
-    title2: "Robin",
-    logo_name: "robin.m()",
+    title2: "Robin Malhotra",
+    logo_name: "robinmalhotra",
     nickname: "robin",
     full_name: "Robin Malhotra",
     subTitle: "Senior Software Engineer, Building large scale solutions 🔥. Above and Beyond.",
