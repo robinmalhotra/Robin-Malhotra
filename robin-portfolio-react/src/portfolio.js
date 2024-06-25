@@ -14,9 +14,9 @@ const settings = {
     logo_name: "robinmalhotra",
     nickname: "robin",
     full_name: "Robin Malhotra",
-    subTitle: "Senior Software Engineer, Building large scale solutions 🔥. Above and Beyond.",
+    subTitle: "Senior Software Engineer, Building large scale solutions (B2C, B2B, SaaS) with domains like E-commerce, Finances, Ride-hailing platforms with high adoption rate that can withstand high volumes of traffic. 🔥",
     resumeLink:
-      "https://docs.google.com/document/d/1B4aCenUUtTg0HNbh05C5m20kzwNp47IqfhngQ3FiMSQ/sharing",
+      "https://docs.google.com/document/d/1B4aCenUUtTg0HNbh05C5m20kzwNp47IqfhngQ3FiMSQ/edit?usp=sharing",
     mail: "mailto:68.robinmalhotra@gmail.com",
   };
   
@@ -31,7 +31,296 @@ const settings = {
   const skills = {
     data: [
       {
-        title: "Backend Development",
+        title: "Senior Software Engineer",
+        fileName: "FullStackImg",
+        skills: [
+          "⚡ Spearheaded the development of microservices for large scale E-commerce, Financial, Security modules in Node.js/TypeScript, GraphQL, Kafka, and REST, handling over 3 million transactions monthly, reducing TAT from 3 days to 1-27 minutes.",
+          "⚡ Led the team of 10 for modernization of a monolithic system to microservices architecture, leveraging Node.js, React.js, Vue.js, Kafka, Docker, and Kubernetes, improving responsiveness by 41% and reducing API call latency by 53%.",
+          "⚡ Engineered a high-performance customized API Gateway using Apollo, GraphQL, Schema Stitching, incorporating features like Rate Limiting and Circuit Breaker, reducing latency by 67% for over 9 million daily hits.",
+          "⚡ Replaced legacy background jobs for a major application by implementing Message Queues (kafka), ironed out several tightly coupled dependencies and reduced the syncing time from 4 hours to 30 minutes.",
+          "⚡ Conducted multitude of Code Reviews, participated in design discussions and got selected into Company’s Architecture Council for major tech ecosystem changes.",
+          "⚡ Designed and documented a secure single-sign-on (SSO) system using Google Auth and Passkey, which will enhance user authentication security by 40% and reduce login-related helpdesk tickets by 25%. ",
+          "⚡ Revamped the Payments infrastructure from legacy RubyOnRails monolith to Node.js and Vue.js based microservices, and incorporated different refund mechanisms, increasing user adoption from 5% to 93%. ",
+          "⚡ Integrated refund algorithms across payment modes (e.g., Debit Card, Credit Card, Cash) and Payment Gateways (e.g. PayU, Cashfree, GooglePay), increased the transaction rate from $50K to $300K-$1M monthly refunds.",
+          "⚡ Championed robust testing practices using Mocha, Jest, and Chai within the CI/CD pipeline for critical microservices in supply chain and payments, achieving 100% code coverage.",
+          "⚡ Introduced Wiki.js for seamless documentation and streamlined the local setup of internal applications, decreasing the setup time from 1 week to 2 days. Eventually put the setup on Docker container reducing the efforts further to 2-3 hours.",
+          "⚡ Initiated a culture of giving Tech-talks and delivered the talks on Typescript concepts and Node.js advanced concepts. Collaborated with Program Manager and Leadership to have it as one of our KRA and KPIs.",
+
+        ],
+        softwareSkills: [
+          {
+            skillName: "HTML5",
+            fontAwesomeClassname: "simple-icons:html5",
+            style: {
+              color: "#E34F26",
+            },
+          },
+          {
+            skillName: "CSS3",
+            fontAwesomeClassname: "fa-css3",
+            style: {
+              color: "#1572B6",
+            },
+          },
+          {
+            skillName: "JavaScript",
+            fontAwesomeClassname: "simple-icons:javascript",
+            style: {
+              backgroundColor: "#FFFFFF",
+              color: "#F7DF1E",
+            },
+          },
+          {
+            skillName: "ReactJS",
+            fontAwesomeClassname: "simple-icons:react",
+            style: {
+              color: "#61DAFB",
+            },
+          },
+          {
+            skillName: "NodeJS",
+            fontAwesomeClassname: "simple-icons:node-dot-js",
+            style: {
+              color: "#339933",
+            },
+          },
+          {
+            skillName: "NPM",
+            fontAwesomeClassname: "simple-icons:npm",
+            style: {
+              color: "#CB3837",
+            },
+          },
+          {
+            skillName: "MongoDB",
+            fontAwesomeClassname: "simple-icons:mongodb",
+            style: {
+              color: "#439743",
+            },
+          },
+          {
+            skillName: "GraphQL",
+            fontAwesomeClassname: "simple-icons:graphql",
+            style: {
+              color: "#DE33A6",
+            },
+          },
+          {
+            skillName: "Android",
+            fontAwesomeClassname: "simple-icons:android",
+            style: {
+              color: "#3DDC84",
+            },
+          },
+          {
+            skillName: "Java",
+            fontAwesomeClassname: "simple-icons:java",
+            style: {
+              color: "#f89820",
+            },
+          },
+          {
+            skillName: "MySQL",
+            fontAwesomeClassname: "simple-icons:mysql",
+            style: {
+              color: "#4479A1",
+            },
+          },
+          {
+            skillName: "Apache",
+            fontAwesomeClassname: "simple-icons:apache",
+            style: {
+              color: "#CA1A22",
+            },
+          },
+          {
+            skillName: "Git",
+            fontAwesomeClassname: "simple-icons:git",
+            style: {
+              color: "#E94E32",
+            },
+          },
+        ],
+      },
+      {
+        title: "Software Engineer",
+        fileName: "FrontendDevImg",
+        skills: [
+          "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+          "⚡ Building responsive website front end using ReactJS",
+          "⚡ Developing mobile applications using Flutter and Android",
+          "⚡ Creating application backend in Node, Express & Flask",
+          "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        ],
+        softwareSkills: [
+          {
+            skillName: "HTML5",
+            fontAwesomeClassname: "simple-icons:html5",
+            style: {
+              color: "#E34F26",
+            },
+          },
+          {
+            skillName: "CSS3",
+            fontAwesomeClassname: "fa-css3",
+            style: {
+              color: "#1572B6",
+            },
+          },
+          {
+            skillName: "JavaScript",
+            fontAwesomeClassname: "simple-icons:javascript",
+            style: {
+              backgroundColor: "#FFFFFF",
+              color: "#F7DF1E",
+            },
+          },
+          {
+            skillName: "ReactJS",
+            fontAwesomeClassname: "simple-icons:react",
+            style: {
+              color: "#61DAFB",
+            },
+          },
+          {
+            skillName: "NodeJS",
+            fontAwesomeClassname: "simple-icons:node-dot-js",
+            style: {
+              color: "#339933",
+            },
+          },
+          {
+            skillName: "NPM",
+            fontAwesomeClassname: "simple-icons:npm",
+            style: {
+              color: "#CB3837",
+            },
+          },
+          {
+            skillName: "MongoDB",
+            fontAwesomeClassname: "simple-icons:mongodb",
+            style: {
+              color: "#439743",
+            },
+          },
+          {
+            skillName: "GraphQL",
+            fontAwesomeClassname: "simple-icons:graphql",
+            style: {
+              color: "#DE33A6",
+            },
+          },
+          {
+            skillName: "Android",
+            fontAwesomeClassname: "simple-icons:android",
+            style: {
+              color: "#3DDC84",
+            },
+          },
+          {
+            skillName: "Java",
+            fontAwesomeClassname: "simple-icons:java",
+            style: {
+              color: "#f89820",
+            },
+          },
+          {
+            skillName: "MySQL",
+            fontAwesomeClassname: "simple-icons:mysql",
+            style: {
+              color: "#4479A1",
+            },
+          },
+          {
+            skillName: "Apache",
+            fontAwesomeClassname: "simple-icons:apache",
+            style: {
+              color: "#CA1A22",
+            },
+          },
+          {
+            skillName: "Git",
+            fontAwesomeClassname: "simple-icons:git",
+            style: {
+              color: "#E94E32",
+            },
+          },
+        ],
+      },
+      {
+        title: "Cloud Architecture",
+        fileName: "CloudInfraImg",
+        skills: [
+          "⚡ Experience working on multiple cloud platforms",
+          "⚡ Experience hosting and managing websites",
+          "⚡ Experience with Continuous Integration",
+        ],
+        softwareSkills: [
+          {
+            skillName: "AWS",
+            fontAwesomeClassname: "simple-icons:amazonaws",
+            style: {
+              color: "#FF9900",
+            },
+          },
+          {
+            skillName: "Netlify",
+            fontAwesomeClassname: "simple-icons:netlify",
+            style: {
+              color: "#38AFBB",
+            },
+          },
+          {
+            skillName: "Heroku",
+            fontAwesomeClassname: "simple-icons:heroku",
+            style: {
+              color: "#6863A6",
+            },
+          },
+          {
+            skillName: "Firebase",
+            fontAwesomeClassname: "simple-icons:firebase",
+            style: {
+              color: "#FFCA28",
+            },
+          },
+          {
+            skillName: "PostgreSQL",
+            fontAwesomeClassname: "simple-icons:postgresql",
+            style: {
+              color: "#336791",
+            },
+          },
+          {
+            skillName: "MongoDB",
+            fontAwesomeClassname: "simple-icons:mongodb",
+            style: {
+              color: "#47A248",
+            },
+          },
+          {
+            skillName: "Docker",
+            fontAwesomeClassname: "simple-icons:docker",
+            style: {
+              color: "#1488C6",
+            },
+          },
+          {
+            skillName: "GitHub Actions",
+            fontAwesomeClassname: "simple-icons:githubactions",
+            style: {
+              color: "#5b77ef",
+            },
+          },
+        ],
+      },
+    ],
+  };
+
+  const work_ex = {
+    data: [
+      {
+        title: "CaraLane, A Ta",
         fileName: "FullStackImg",
         skills: [
           "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
@@ -313,30 +602,28 @@ const settings = {
   const degrees = {
     degrees: [
       {
-        title: "Shantilal Shah Engineering College",
-        subtitle: "Bachelor in Information Technology",
-        logo_path: "ssec.png",
+        title: "Punjabi University",
+        subtitle: "Master in Technology | Computer Science Engineering",
+        logo_path: "punjabiuni.png",
         alt_name: "SSEC",
         duration: "2021 - 2024",
         descriptions: [
-          "⚡ I have studied core subjects like Machine Learning, Computer Vision, Advanced Web Development.",
-          "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+          "⚡ Majors in Image Processing: Image denoising, Image enhancement, Object detection, Image compression, Fourier Transformations. ",
+          "⚡ Research in Image Enhancement of SAR images using Histogram Equalization with Sigmoid Function and Cosine Transformation. Used the Baysian technique as a pre and post-filtration mechanism to find which gives the best results."
         ],
-        website_link: "http://www.ssgec.ac.in/",
+        website_link: "http://www.punjabiuniversity.ac.in/",
       },
       {
-        title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
-        subtitle: "Diploma in Information Technology",
-        logo_path: "ssgandhy.png",
+        title: "Punjab Technical University",
+        subtitle: "Bachelor in Technology | Computer Science Engineering",
+        logo_path: "ptu.png",
         alt_name: "SSGC",
         duration: "2018 - 2021",
         descriptions: [
-          "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-          "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-          "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
-          "⚡ I have secured 9.82 CGPA.",
+          "⚡ Studied Computer Networks, Computer Architecture, Operating Systems, Compiler Design, Theory of Computation, Digital Circuits and many more...",
+          "⚡ Projects: Student Management System (Android, JAVA)",
         ],
-        website_link: "http://www.ssgc.cteguj.in/",
+        website_link: "https://ptu.ac.in/",
       },
     ],
   };
@@ -424,160 +711,78 @@ const settings = {
   // Experience Page
   const experience = {
     title: "Experience",
-    subtitle: "Work, Internship and Volunteership",
+    subtitleList: [`I have single-handedly developed and maintained large scale applications (B2C, B2B, SaaS) 
+      with domains like E-commerce, Finances, Ride-hailing platforms with high adoption rate that can withstand 
+      high volumes of traffic amounting to 3 million transactions monthly`,
+      `I happen to be a tech-agnostic person who learnt technologies like Node.js, React.js, Ruby, Rails, Javascript, Typescript, Android, Java in a very short span of time and showed immediate results with the code that adhered to industry standards. And, I keep learning and mastering more.`,
+      `I am committed to writing highly optimized code and am dedicated to continuous learning and improvement. My passion lies in developing scalable, efficient products that meet real-world needs and achieve widespread adoption.`,
+    ],
+    subtitle: ``,
     description:
-      "As a Node.js Backend Developer, I have worked with real projects for over two years. I've mostly done projects on my own. I love organizing workshops to share my knowledge with others.",
+      "I am a seasoned Software Engineer specializing in developing and modernizing large-scale systems using Node.js, TypeScript, React.js, Vue.js, Kafka, and Kubernetes. I have led teams to transform monolithic architectures into microservices, significantly improving system responsiveness and reducing latency. My expertise includes creating high-performance API Gateways, enhancing payment infrastructures, and implementing secure single-sign-on systems. Passionate about knowledge sharing, I have initiated Tech-talks and contributed to major architectural decisions, ensuring efficient and scalable solutions.",
     header_image_path: "experience.svg",
     sections: [
       {
         title: "Work Experience",
         experiences: [
           {
-            title: "SDE Intern",
-            company: "Crest Infosystems Pvt. Ltd.",
-            company_url: "https://www.crestinfosystems.com/",
-            logo_path: "crest.png",
-            duration: "Jan 2024 - Present",
-            location: "Surat, Gujarat",
+            title: "Senior Software Engineer",
+            company: "CaratLane: A Tanishq Partnership (Titan and TATA subsidiary)",
+            company_url: "https://www.caratlane.com/",
+            logo_path: "caratlane.png",
+            duration: "June 2019 - April 2024",
+            location: "New Delhi, India",
             description: `As an SDE intern, my priorities include learning opportunities and professional development. Aiming for Backend Development proficiency.`,
+            skillsList: [
+              "• Spearheaded the development of microservices for large scale E-commerce, Financial, Security modules in Node.js/TypeScript, GraphQL, Kafka, and REST, handling over 3 million transactions monthly, reducing TAT from 3 days to 1-27 minutes.",
+              "• Led the team of 10 for modernization of a monolithic system to microservices architecture, leveraging Node.js, React.js, Vue.js, Kafka, Docker, and Kubernetes, improving responsiveness by 41% and reducing API call latency by 53%.",
+              "• Engineered a high-performance customized API Gateway using Apollo, GraphQL, Schema Stitching, incorporating features like Rate Limiting and Circuit Breaker, reducing latency by 67% for over 9 million daily hits.",
+              "• Replaced legacy background jobs for a major application by implementing Message Queues (kafka), ironed out several tightly coupled dependencies and reduced the syncing time from 4 hours to 30 minutes.",
+              "• Conducted multitude of Code Reviews, participated in design discussions and got selected into Company’s Architecture Council for major tech ecosystem changes.",
+              "• Designed and documented a secure single-sign-on (SSO) system using Google Auth and Passkey, which will enhance user authentication security by 40% and reduce login-related helpdesk tickets by 25%. ",
+              "• Revamped the Payments infrastructure from legacy RubyOnRails monolith to Node.js and Vue.js based microservices, and incorporated different refund mechanisms, increasing user adoption from 5% to 93%. ",
+              "• Integrated refund algorithms across payment modes (e.g., Debit Card, Credit Card, Cash) and Payment Gateways (e.g. PayU, Cashfree, GooglePay), increased the transaction rate from $50K to $300K-$1M monthly refunds.",
+              "• Championed robust testing practices using Mocha, Jest, and Chai within the CI/CD pipeline for critical microservices in supply chain and payments, achieving 100% code coverage.",
+              "• Introduced Wiki.js for seamless documentation and streamlined the local setup of internal applications, decreasing the setup time from 1 week to 2 days. Eventually put the setup on Docker container reducing the efforts further to 2-3 hours.",
+              "• Initiated a culture of giving Tech-talks and delivered the talks on Typescript concepts and Node.js advanced concepts. Collaborated with Program Manager and Leadership to have it as one of our KRA and KPIs.",
+            ],
             color: "#0071C5",
           },
           {
-            title: "Node.js Backend Developer",
-            company: "Valora Infotech",
-            company_url: "http://valorainfotech.com/",
-            logo_path: "valora.jpg",
-            duration: "Oct 2020 - Dec 2022",
-            location: "Surat, Gujarat",
-            description: `Train, oversee, and mentor young software development employees. I created and managed the admin panel backend and a gambling application as a Node.js backend developer. I obtained knowledge in Web Socket, Payment Gateway Integration, and gaming legislation, while growing my industry experience and investigating new technologies.
-            Focus on change request functions in close collaboration with the project manager and team leads.
-            Developed new and maintained existing applications.
-            Increased productivity and problem-solving technics by 20%.
-            We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-            `,
-            // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
+            title: "Software Engineer",
+            company: "Jugnoo/Jungleworks",
+            company_url: "https://www.jugnoo.in/",
+            logo_path: "jugnoo.png",
+            duration: "August 2019 - June 2021",
+            location: "Chandigarh, India",
+            description: ``,
+            skillsList: [
+              "• Single handedly developed SaaS based Bike Rental(Smartbike) platform using Node.js, MySQL, REST APIs which handled route optimisation, fare calculation, heatmaps and got adopted in 13+ countries (25 cities).",
+              "• Enabled efficient communication for IOT-based locks through Sockets and REST APIs, boosted adoption from 10K-20K rides to 150k-200k weekly rides.",
+              "• Wrote Database migration scripts for forking SaaS white-labeled projects, reducing forking time from 1 week to 7-10 hours.",
+              "• Streamlined SMS gateway integration with Twilio by implementing a Plug-and-Play mechanism slashing dev-time (3d to 30 mins).",
+              "• Orchestrated the development of an ACL microservice using Node.js, TypeScript, and MySQL. Enabled new admin roles and permissions with minimal code changes, improving maintainability by 77%.",
+              "• Collaborated with the Product team to develop client features for a Ride-Hailing platform and managed integrations for 15+ payment gateways, including Stripe, Google Pay, and Apple Pay, ensuring seamless transactions.",
+              "• Devised Heat-map algorithms for traffic-based UI on rental bike stations, enhancing ride booking transparency.",
+              "• Converted Backend of Delivery based application from Node.js/Javascript to Nest.js/Typescript and introduced a clean coding standard reducing development time by 37%.",
+            ],
             color: "#0071C5",
           },
-          // {
-          //   title: "Node.js Backend Developer (Intern)",
-          //   company: "Valora Infotech",
-          //   company_url: "http://valorainfotech.com/",
-          //   logo_path: "valora.jpg",
-          //   duration: "Oct 2020 - Mar 2021",
-          //   location: "Surat, Gujarat",
-          //   description: `Focus on change request functions in close collaboration with the project manager and team leads.
-          //   Developed new and maintained existing applications.
-          //   Increased productivity and problem-solving technics by 20%.
-          //   We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-          //   `,
-          //   // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          //   color: "#0071C5",
-          // },
           {
-            title: "Full Stack Developer (Freelancer)",
-            company: "NightOwls",
-            company_url: "http://nightowls.company/",
-            logo_path: "nightowls.jpg",
-            duration: "Sep 2020 - Oct 2020",
-            location: "Work From Home",
-            description: `Maintain close contact with the client and team when handling change requests.
-            LAMP Stack was mostly utilised. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
-            `,
-            // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+            title: "Software Engineer Intern",
+            company: "ClickLabs",
+            company_url: "https://clicklabs.co/",
+            logo_path: "clicklabs.png",
+            duration: "February 2019 - August 2019",
+            location: "Chandigarh, India",
+            description: ``,
+            skillsList: [
+              "• Created a seamless white-label mechanism for Android application that reduced the whitelabel efforts from 3 days to 1 day.",
+              "• Implemented IOT device bluetooth integration with Android using Bluetooth Low Energy module.",
+              "• Integrated GoogleAPIs and Firebase  in Jugnoo Android Applications and optimized the App latency by 50%.",
+              "• Fixed legacy issues in Android App and collaborated with Product team to implement client’s features.",
+            ],
             color: "#ee3c26",
-          },
-        ],
-      },
-      {
-        title: "Volunteerships",
-        experiences: [
-          {
-            title: "Community Lead",
-            company: "Bauddhik-Geeks",
-            company_url: "https://bauddhikgeeks.tech/",
-            logo_path: "bauddhikgeeks.png",
-            duration: "Sep 2021 - Present",
-            location: "Work From Home",
-            description:
-              "Help Tech-Geeks so they get exposure to the technical world and enlighten their skills. Hence, the programming club highlight all the skills of the individual members and help them develop and groom their skills in a meaningful way. Help community members to learn and grow.",
-            color: "#FBBD18",
-          },
-          {
-            title: "Cross Winter of Code Mentor",
-            company: "CWOC",
-            company_url: "https://crosswoc.ieeedtu.in/",
-            logo_path: "cwoc.png",
-            duration: "Feb 2021 - Present",
-            location: "Work From Home",
-            description:
-              "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-            color: "#4285F4",
-          },
-          // {
-          //   title: "Campus Hustler",
-          //   company: "Skillenza",
-          //   company_url: "https://skillenza.com/",
-          //   logo_path: "skillenza.png",
-          //   duration: "Feb 2021 - Present",
-          //   location: "Work from Home",
-          //   description:
-          //     "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-          //   color: "#196acf",
-          // },
-          {
-            title: "GDG Student Volunteer",
-            company: "Google Developer Groups",
-            company_url: "https://gdg.community.dev/",
-            logo_path: "gdg.png",
-            duration: "Feb 2021 - Present",
-            location: "Work From Home",
-            description:
-              "Google Developer Group Surat Student Volunteer and Member.",
-            color: "#D83B01",
-          },
-          {
-            title: "Postman Student Expert",
-            company: "Postman",
-            company_url: "https://www.postman.com/",
-            logo_path: "postman.png",
-            duration: "Feb 2020 - Present",
-            location: "Work From Home",
-            description:
-              "Google Developer Group Surat Student Volunteer and Member.",
-            color: "#D83B01",
-          },
-          {
-            title: "GitHub Student Developer",
-            company: "GitHub",
-            company_url: "https://github.com/",
-            logo_path: "github.png",
-            duration: "Nov 2019 - Present",
-            location: "Work from Home",
-            description:
-              "Contribute to Open Source Community and Open Source Project.",
-            color: "#040f26",
-          },
-          {
-            title: "Google Local Guide",
-            company: "Google Map",
-            company_url: "https://maps.google.com/localguides/",
-            logo_path: "localguide.png",
-            duration: "Sep 2018 - Present",
-            location: "Work From Home",
-            description:
-              "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-            color: "#D83B01",
-          },
-          {
-            title: "E. F. I. Student Volunteer",
-            company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-            company_url: "https://indiaenvironment.org/",
-            logo_path: "efi.png",
-            duration: "Apr 2017 - Present",
-            location: "Work From Home",
-            description:
-              "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-            color: "#5a900f",
           },
         ],
       },

@@ -53,6 +53,19 @@ function ExperienceCard(props) {
             </p>
           </div>
         </div>
+        {
+        experience.skillsList?.map((skill) => {
+          console.log(skill);
+          return <p
+          className="experience-card-description"
+          style={{ color: theme.text }}
+        >
+          {skill}
+        </p>
+
+        })
+        
+        }
         <p
           className="experience-card-description"
           style={{ color: theme.text }}
