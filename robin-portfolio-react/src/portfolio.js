@@ -31,35 +31,20 @@ const settings = {
   const skills = {
     data: [
       {
-        title: "Senior Software Engineer",
+        title: "Backend Development",
         fileName: "FullStackImg",
         skills: [
           "⚡ Spearheaded the development of microservices for large scale E-commerce, Financial, Security modules in Node.js/TypeScript, GraphQL, Kafka, and REST, handling over 3 million transactions monthly, reducing TAT from 3 days to 1-27 minutes.",
           "⚡ Led the team of 10 for modernization of a monolithic system to microservices architecture, leveraging Node.js, React.js, Vue.js, Kafka, Docker, and Kubernetes, improving responsiveness by 41% and reducing API call latency by 53%.",
           "⚡ Engineered a high-performance customized API Gateway using Apollo, GraphQL, Schema Stitching, incorporating features like Rate Limiting and Circuit Breaker, reducing latency by 67% for over 9 million daily hits.",
           "⚡ Replaced legacy background jobs for a major application by implementing Message Queues (kafka), ironed out several tightly coupled dependencies and reduced the syncing time from 4 hours to 30 minutes.",
-          "⚡ Conducted multitude of Code Reviews, participated in design discussions and got selected into Company’s Architecture Council for major tech ecosystem changes.",
-          "⚡ Designed and documented a secure single-sign-on (SSO) system using Google Auth and Passkey, which will enhance user authentication security by 40% and reduce login-related helpdesk tickets by 25%. ",
-          "⚡ Revamped the Payments infrastructure from legacy RubyOnRails monolith to Node.js and Vue.js based microservices, and incorporated different refund mechanisms, increasing user adoption from 5% to 93%. ",
-          "⚡ Integrated refund algorithms across payment modes (e.g., Debit Card, Credit Card, Cash) and Payment Gateways (e.g. PayU, Cashfree, GooglePay), increased the transaction rate from $50K to $300K-$1M monthly refunds.",
-          "⚡ Championed robust testing practices using Mocha, Jest, and Chai within the CI/CD pipeline for critical microservices in supply chain and payments, achieving 100% code coverage.",
-          "⚡ Introduced Wiki.js for seamless documentation and streamlined the local setup of internal applications, decreasing the setup time from 1 week to 2 days. Eventually put the setup on Docker container reducing the efforts further to 2-3 hours.",
-          "⚡ Initiated a culture of giving Tech-talks and delivered the talks on Typescript concepts and Node.js advanced concepts. Collaborated with Program Manager and Leadership to have it as one of our KRA and KPIs.",
-
         ],
         softwareSkills: [
           {
-            skillName: "HTML5",
-            fontAwesomeClassname: "simple-icons:html5",
+            skillName: "NodeJS",
+            fontAwesomeClassname: "logos:nodejs",
             style: {
-              color: "#E34F26",
-            },
-          },
-          {
-            skillName: "CSS3",
-            fontAwesomeClassname: "fa-css3",
-            style: {
-              color: "#1572B6",
+              color: "#339933",
             },
           },
           {
@@ -78,10 +63,17 @@ const settings = {
             },
           },
           {
-            skillName: "NodeJS",
-            fontAwesomeClassname: "simple-icons:node-dot-js",
+            skillName: "HTML5",
+            fontAwesomeClassname: "simple-icons:html5",
             style: {
-              color: "#339933",
+              color: "#E34F26",
+            },
+          },
+          {
+            skillName: "CSS3",
+            fontAwesomeClassname: "fa-css3",
+            style: {
+              color: "#1572B6",
             },
           },
           {
@@ -105,20 +97,7 @@ const settings = {
               color: "#DE33A6",
             },
           },
-          {
-            skillName: "Android",
-            fontAwesomeClassname: "simple-icons:android",
-            style: {
-              color: "#3DDC84",
-            },
-          },
-          {
-            skillName: "Java",
-            fontAwesomeClassname: "simple-icons:java",
-            style: {
-              color: "#f89820",
-            },
-          },
+
           {
             skillName: "MySQL",
             fontAwesomeClassname: "simple-icons:mysql",
@@ -143,14 +122,13 @@ const settings = {
         ],
       },
       {
-        title: "Software Engineer",
+        title: "Frontend Development",
         fileName: "FrontendDevImg",
         skills: [
-          "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
-          "⚡ Building responsive website front end using ReactJS",
-          "⚡ Developing mobile applications using Flutter and Android",
-          "⚡ Creating application backend in Node, Express & Flask",
-          "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
+          "⚡ Converted RubyOnRails Monolith Client Side Rendering to Server ide Rendering in React.js and Vue.js.",
+          "⚡ Developed Microfrontends for Large internal application.",
+          "⚡ Created heatmap UI for traffic based app.",
+          "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean/ Vercel.",
         ],
         softwareSkills: [
           {
@@ -184,7 +162,7 @@ const settings = {
           },
           {
             skillName: "NodeJS",
-            fontAwesomeClassname: "simple-icons:node-dot-js",
+            fontAwesomeClassname: "logos:nodejs",
             style: {
               color: "#339933",
             },
@@ -243,6 +221,20 @@ const settings = {
             fontAwesomeClassname: "simple-icons:git",
             style: {
               color: "#E94E32",
+            },
+          },
+          {
+            skillName: "Android",
+            fontAwesomeClassname: "simple-icons:android",
+            style: {
+              color: "#3DDC84",
+            },
+          },
+          {
+            skillName: "Java",
+            fontAwesomeClassname: "logos:java",
+            style: {
+              color: "#f89820",
             },
           },
         ],
@@ -251,9 +243,9 @@ const settings = {
         title: "Cloud Architecture",
         fileName: "CloudInfraImg",
         skills: [
-          "⚡ Experience working on multiple cloud platforms",
-          "⚡ Experience hosting and managing websites",
-          "⚡ Experience with Continuous Integration",
+          "⚡ Experience working on AWS (API Gateway, S3, Secret Manager and more), Docker, Kubernetes.",
+          "⚡ Experience hosting and managing websites.",
+          "⚡ Experience with CI/CD Pipelines.",
         ],
         softwareSkills: [
           {
@@ -808,8 +800,8 @@ const settings = {
     blogSection: {
       title: "Blogs",
       subtitle:
-        "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Twitter.",
-      link: "https://twitter.com/robinmalhotra",
+        "I don't blog frequently but when I do something awesome, I do try to document it so it can be helpful to others. I write on Medium.",
+      link: "https://medium.com/@68.robinmalhotra",
       avatar_image_path: "blogs_image.svg",
     },
   };
