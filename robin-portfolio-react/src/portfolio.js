@@ -11,7 +11,7 @@ const settings = {
   const greeting = {
     title: "Hello 👋.",
     title2: "Robin Malhotra",
-    logo_name: "robinmalhotra",
+    logo_name: "[ROB'in]",
     nickname: "robin",
     full_name: "Robin Malhotra",
     subTitle: "Senior Software Engineer, Building large scale solutions (B2C, B2B, SaaS) with domains like E-commerce, Finances, Ride-hailing platforms with high adoption rate that can withstand high volumes of traffic. 🔥",
